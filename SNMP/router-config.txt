@@ -1,0 +1,4 @@
+snmp-server community SANTOSH-MONITOR RO
+snmp-server location Pune-Lab
+snmp-server contact Santosh
+show running-config | include snmp

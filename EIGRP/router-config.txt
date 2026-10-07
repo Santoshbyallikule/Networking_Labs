@@ -1,0 +1,4 @@
+router eigrp 100
+ no auto-summary
+ network 10.20.0.0 0.0.255.255
+ network 192.168.40.0 0.0.0.255

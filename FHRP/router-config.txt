@@ -1,0 +1,6 @@
+interface gigabitEthernet 0/0
+ ip address 192.168.60.2 255.255.255.0
+ standby 10 ip 192.168.60.1
+ standby 10 priority 110
+ standby 10 preempt
+ no shutdown

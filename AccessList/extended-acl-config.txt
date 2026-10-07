@@ -1,0 +1,5 @@
+ip access-list extended BLOCK-WEB
+ deny tcp host 192.168.50.10 any eq 80
+ permit ip any any
+interface gigabitEthernet 0/1
+ ip access-group BLOCK-WEB in

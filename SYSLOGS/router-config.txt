@@ -1,0 +1,4 @@
+service timestamps log datetime msec
+logging host 192.168.70.10
+logging trap informational
+show logging
