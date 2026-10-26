@@ -1,15 +1,22 @@
-# RIP v2
+# RIP v2 Lab
 
 ## Objective
-Configure dynamic routing with RIPv2 between multiple routers.
+Configure and verify **RIPv2** (Routing Information Protocol version 2) for dynamic routing between multiple routers in Cisco Packet Tracer.
 
-## Tasks
-- Assign IPv4 addresses
-- Enable RIPv2
-- Advertise connected networks
-- Disable automatic summarization
-- Verify learned routes
+## Lab File
+- **Packet Tracer File:** `Rip Santosh.pkt`
 
-Verification: `show ip route`, `show ip protocols`, `ping`, `traceroute`.
+## Tasks Completed
+- Assigned IPv4 addresses to router interfaces
+- Enabled RIPv2 on all routers
+- Advertised connected networks
+- Disabled automatic summarization (`no auto-summary`)
+- Verified route learning and connectivity
 
-Save as `RIP_v2_Santosh.pkt`.
+## Verification Commands
+```bash
+show ip route
+show ip protocols
+show ip rip database
+ping <destination>
+traceroute <destination>
