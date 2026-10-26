@@ -1,15 +1,27 @@
-# EIGRP
+---
+
+### 2. EIGRP/README.md
+
+```markdown
+# EIGRP Lab
 
 ## Objective
-Configure Enhanced Interior Gateway Routing Protocol for IPv4 and verify route exchange.
+Configure **Enhanced Interior Gateway Routing Protocol (EIGRP)** for IPv4 and verify neighbor adjacency and route exchange.
 
-## Tasks
-- Configure EIGRP
-- Use an autonomous system number
-- Advertise networks
-- Disable auto-summary
-- Verify neighbors and routes
+## Lab File
+- **Packet Tracer File:** `Day 25 Lab - EIGRP Configuration Santosh.pkt`
 
-Verification: `show ip eigrp neighbors`, `show ip route`, `show ip protocols`.
+## Tasks Completed
+- Configured EIGRP with Autonomous System (AS) number
+- Advertised networks using `network` command
+- Disabled auto-summary
+- Verified EIGRP neighbors
+- Verified EIGRP routes in the routing table
 
-Save as `EIGRP_Santosh.pkt`.
+## Verification Commands
+```bash
+show ip eigrp neighbors
+show ip eigrp topology
+show ip route
+show ip protocols
+show ip eigrp interfaces
