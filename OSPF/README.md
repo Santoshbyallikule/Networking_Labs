@@ -1,18 +1,27 @@
-# OSPF Single Area
+---
+
+### 3. OSPF/README.md
+
+```markdown
+# OSPF Single Area Lab
 
 ## Objective
-Configure OSPF Area 0 between routers and verify dynamic route learning.
+Configure **OSPF** in a single area (Area 0) and verify dynamic route learning and neighbor adjacency.
 
-## Tasks
-- Configure router IDs
-- Enable OSPF process
-- Advertise connected networks
-- Use Area 0
-- Verify neighbors and routes
+## Lab File
+- **Packet Tracer File:** `Day 27 Lab - OSPF Part 2 Santosh.pkt`
 
-Verification:
-`show ip ospf neighbor`
-`show ip ospf`
-`show ip route ospf`
+## Tasks Completed
+- Configured unique Router IDs
+- Enabled OSPF process
+- Advertised connected networks into Area 0
+- Verified OSPF neighbor relationships
+- Verified OSPF routes in the routing table
 
-Save as `OSPF_Area0_Santosh.pkt`.
+## Verification Commands
+```bash
+show ip ospf neighbor
+show ip ospf
+show ip ospf interface
+show ip route ospf
+show ip protocols
